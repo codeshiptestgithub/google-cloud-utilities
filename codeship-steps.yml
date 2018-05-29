@@ -1,5 +1,6 @@
 - name: test app engine deployments
   type: parallel
+  tag: master
   steps:
     - name: test java app engine deployment
       service: deployment_ansible
