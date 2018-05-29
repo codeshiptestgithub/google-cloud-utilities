@@ -18,4 +18,4 @@ y | gcloud auth configure-docker
 echo "Writing Docker creds to $1"
 #cat ~/.dockercfg > $1
 cat ~/.docker/config.json
-cat ~/.dockercfg`
+cat ~/.dockercfg
